@@ -1,8 +1,8 @@
 import { Mail } from 'lucide-react';
 import RailHero from './components/RailHero';
-import AboutTicket from './components/AboutTicket';
-import ServicesTrain from './components/ServicesTrain';
-import GalleryJunction from './components/GalleryJunction';
+import StationMaster from './components/StationMaster';
+import RealisticTrains from './components/RealisticTrains';
+import StationWalk from './components/StationWalk';
 
 function App() {
   return (
@@ -12,9 +12,9 @@ function App() {
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3">
           <a href="#home" className="font-semibold tracking-tight">AB Creative Express</a>
           <nav className="hidden gap-6 text-sm text-slate-700 sm:flex">
-            <a href="#about" className="hover:text-slate-900">About</a>
-            <a href="#services" className="hover:text-slate-900">Services</a>
-            <a href="#gallery" className="hover:text-slate-900">Gallery</a>
+            <a href="#master" className="hover:text-slate-900">Station Master</a>
+            <a href="#trains" className="hover:text-slate-900">Trains</a>
+            <a href="#walk" className="hover:text-slate-900">Station Walk</a>
             <a href="#contact" className="hover:text-slate-900">Contact</a>
           </nav>
           <a href="#contact" className="rounded-full bg-slate-900 px-4 py-1.5 text-sm text-white shadow hover:bg-slate-800">Let’s Talk</a>
@@ -23,9 +23,9 @@ function App() {
 
       <main>
         <RailHero />
-        <AboutTicket />
-        <ServicesTrain />
-        <GalleryJunction />
+        <StationMaster />
+        <RealisticTrains />
+        <StationWalk />
 
         {/* Contact */}
         <section id="contact" className="relative bg-gradient-to-b from-slate-50 to-white py-16">
